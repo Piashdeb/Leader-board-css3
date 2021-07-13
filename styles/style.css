@@ -6,6 +6,54 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+.name {
+    display: flex;
+    /* background-position: left; */
+
+    width: 54px;
+    height: 36px;
+    left: 341px;
+    color: white;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+ nav {
+    display: flex;
+    height: 95px;
+    width: 100%;
+    background-color: #562eff;
+    align-items: center;
+    justify-content: center;
+    }
+    .nav-container {
+    display: flex;
+    width: 870px; 
+    height: 95px;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .logo {
+    height: 51px;
+    width: 40.42px;
+    left: 285px;
+    top: 40px;
+    }
+    .navigation {
+    display: flex;
+    height: 50px;
+    width: 110px;
+    align-items: center;
+    justify-content: flex-end;
+    }
+    .navigation a {
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+    font-size: 16px;
+    } 
+
 main {
     display: flex;
     flex-direction: column;
@@ -91,9 +139,9 @@ hr {
 }
 .course-banner {
     border: 0px solid;
-    padding: 5px;
-    box-shadow:0px 6px 114px rgba(0, 0, 0, 0.05);
-    border-radius: 5px;
+    box-shadow: 10px 6px 114px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .courses .course-banner img {
@@ -138,10 +186,10 @@ hr {
 }
 /* media Quearies for mobile devices */
 @media only screen and (max-width:688px) {
-    .container{
+    .container, .nav-container{
         width: 100%;
     }
-    .players, .blogs, .courses {
+    .players, .blogs, .courses .nav-container{
         /* background-color: tomato; */
         grid-template-columns: repeat(1, 1fr);
     }
@@ -161,3 +209,26 @@ hr {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/* Nav bar */
+/* food-mart {
+    color: black;
+} */
+/* .navigation{
+    text-align: right;
+    display: inline;
+    width: 60%;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.navigation a{
+
+    text-decoration:none;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+.first-part {
+    width: 1440px;
+    height: 94px;
+} */
